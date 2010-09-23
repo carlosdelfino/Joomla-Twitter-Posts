@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+	<name>Twitter Post</name>
+	<author>Remo Noronha</author>
+	<creationDate>March 27 2010</creationDate>
+	<copyright>Copyright (C) 2009 Remo Nornha.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>remtools@gmail.com</authorEmail>
+	<authorUrl>www.remonoronha.com</authorUrl>
+	<version>1.2</version>
+	<description>Post your content to twitter autometically</description>
+	<files>
+		<filename plugin="twitterpost">twitterpost.php</filename>
+	</files>
+	<params>
+		<param name="username" type="text" default="" label="Twitter Username" description="Twitter Username"></param>
+		<param name="password" type="password" default="" label="Twitter Password" description="Twitter Password"></param>
+		<param type="spacer"/>
+		<param name="sections" type="text" default="" label="Sections" description="comma seperated section ids"/>
+		<param name="categories" type="text" default="" label="Categories" description="comma seperated category ids"/>
+		<param type="spacer" />
+		<param name="tinyurl" type="radio" default="0" label="Enable Tiny Url" description="Url will be encoded into TinyUrl">
+  			<option value="0">No</option>
+  			<option value="1">Yes</option>
+		</param>
+		<param name="post_edits" type="radio" default="0" label="Post Edits" description="Post when editing content">
+  			<option value="0">No</option>
+  			<option value="1">Yes</option>
+		</param>
+		<param type="spacer" />
+		<param name="maxlen" type="text" default="" label="Limit Title Length" description="Limits the Article Length. Setting this to zero disables trimming"/>
+		
+
+	</params>
+</install>

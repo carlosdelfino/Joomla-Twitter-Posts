@@ -2,12 +2,12 @@
 <install version="1.5" type="plugin" group="content">
 	<name>Twitter Post</name>
 	<author>Remo Noronha</author>
-	<creationDate>March 27 2010</creationDate>
+	<creationDate>Feb 2010</creationDate>
 	<copyright>Copyright (C) 2009 Remo Nornha.</copyright>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<authorEmail>remtools@gmail.com</authorEmail>
 	<authorUrl>www.remonoronha.com</authorUrl>
-	<version>1.2</version>
+	<version>1.1</version>
 	<description>Post your content to twitter autometically</description>
 	<files>
 		<filename plugin="twitterpost">twitterpost.php</filename>
@@ -20,10 +20,6 @@
 		<param name="categories" type="text" default="" label="Categories" description="comma seperated category ids"/>
 		<param type="spacer" />
 		<param name="tinyurl" type="radio" default="0" label="Enable Tiny Url" description="Url will be encoded into TinyUrl">
-  			<option value="0">No</option>
-  			<option value="1">Yes</option>
-		</param>
-		<param name="post_edits" type="radio" default="0" label="Post Edits" description="Post when editing content">
   			<option value="0">No</option>
   			<option value="1">Yes</option>
 		</param>
